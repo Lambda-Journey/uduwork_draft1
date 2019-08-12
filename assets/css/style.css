@@ -78,7 +78,7 @@ header nav li a:hover {
   color: rgba(60, 242, 139, 1);
 }
 
-button {
+ul button {
   padding: 0.75em 3em;
   background-color: rgba(60, 242, 139, 1);
   border: none;
@@ -86,7 +86,7 @@ button {
   transition: all 0.3s ease 0s;
 }
 
-button:hover {
+ul button:hover {
   background-color: rgba(60, 242, 139, 0.8);
   cursor: pointer;
 }
@@ -100,7 +100,7 @@ HERO DIV
 .herodiv {
   background-image: linear-gradient(
       160deg,
-      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.3),
       rgba(50, 64, 84, 0.7)
     ),
     url(/assets/img/brushes-3129361_1920.jpg);
@@ -146,7 +146,7 @@ HERO DIV
 
 .herodiv div {
   background-color: rgba(23, 34, 42, 0.9);
-  height: 400px;
+  height: 480px;
   display: flex;
   flex-direction: column;
   width: 65%;
@@ -154,7 +154,7 @@ HERO DIV
   text-align: end;
   padding-right: 3em;
   position: absolute;
-  top: 33%;
+  top: 25%;
   opacity: 0;
   animation-name: hero;
   animation-duration: 750ms;
@@ -171,6 +171,30 @@ HERO DIV
     opacity: 1;
   }
 }
+
+.hero__search {
+  width: 250px;
+  align-self: flex-end;
+  margin-top: 1em;
+  height: 2.5em;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.herodiv button {
+  padding: 0.75em 3em;
+  background-color: rgba(60, 242, 139, 1);
+  border: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+  width: 250px;
+}
+
+.herodiv button:hover {
+  background-color: rgba(60, 242, 139, 0.8);
+  cursor: pointer;
+}
+
 /* =====================================================
 HERO DIV
 ========================================================*/
@@ -293,6 +317,42 @@ FOOTER
   .nav__toggle:checked ~ nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 270ms;
+  }
+
+  .herodiv {
+    min-height: 550px;
+  }
+
+  .herodiv h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 1.7rem;
+    text-align: center;
+  }
+
+  .herodiv h3 {
+    display: none;
+  }
+
+  .herodiv div {
+    height: 400px;
+    display: flex;
+    width: 80%;
+    top: 100px;
+    padding-right: 1.7em;
+    align-items: center;
+  }
+
+  .hero__search {
+    width: 175px;
+    margin-top: 0.5em 0;
+    align-self: center;
+  }
+
+  .herodiv button {
+    width: 175px;
+    font-size: 1rem;
+    margin: 0.5em 0;
   }
 }
 /* =====================================================
