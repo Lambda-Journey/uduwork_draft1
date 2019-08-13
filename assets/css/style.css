@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Blinker:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,700,700i,800,800i&display=swap");
+/*300,400,700*/
 
 *,
 *::before,
@@ -19,20 +20,29 @@ html {
 /* =====================================================
 GENERAL FONT SETTINGS 
 ========================================================*/
-ul,
-a,
-h1,
-h3 {
-  font-family: "Blinker", sans-serif;
-  font-weight: 300;
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   text-decoration: none;
   font-size: 1em;
   color: white;
 }
 
-button {
-  font-family: "Blinker", sans-serif;
-  font-weight: 300;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1em;
+  color: rgba(23, 34, 42, 1);
+}
+
+button,
+h3,
+ul,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   text-decoration: none;
   font-size: 1em;
   color: white;
@@ -229,16 +239,58 @@ HERO DIV
 .como__funciona {
   min-height: 600px;
   background-color: white;
-  display: grid;
-  grid-template-rows: minmax(auto) minmax(auto);
-  grid-template-columns: minmax(1em, 1fr) minmax(auto) minmax(1fr, 1em);
 }
 
 .como__funciona h1 {
   color: #141414;
   font-size: 2em;
   text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-weight: 400;
 }
+
+.cf__infographics {
+  display: grid;
+  grid-template-rows: minmax(200px, 1fr);
+  grid-template-columns: minmax(min-content, 400px) minmax(min-content, 400px) minmax(
+      min-content,
+      400px
+    );
+  grid-column-gap: 2rem;
+  grid-row-gap: 1em;
+  align-content: center;
+  justify-content: center;
+}
+
+.cf__infographics a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cf__infographics h1 {
+  text-align: center;
+}
+
+.cf__infographics img {
+  width: 250px;
+  height: auto;
+}
+
+#paga {
+  width: 175px;
+  height: auto;
+}
+
+.cf__infographics h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 /* =====================================================
 ¿¿COMO FUNCION??
 ========================================================*/
