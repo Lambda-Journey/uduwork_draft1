@@ -89,7 +89,8 @@ header nav li {
 }
 
 header nav li a {
-  transition: all 0.3s ease 0s;}
+  transition: all 0.3s ease 0s;
+}
 
 header nav li a:hover {
   color: rgba(60, 242, 139, 1);
