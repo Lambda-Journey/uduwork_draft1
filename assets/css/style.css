@@ -89,8 +89,7 @@ header nav li {
 }
 
 header nav li a {
-  transition: all 0.3s ease 0s;
-}
+  transition: all 0.3s ease 0s;}
 
 header nav li a:hover {
   color: rgba(60, 242, 139, 1);
@@ -121,7 +120,7 @@ HERO DIV
       rgba(0, 0, 0, 0.3),
       rgba(50, 64, 84, 0.7)
     ),
-    url(/assets/img/brushes-3129361_1920.jpg);
+    url(assets/img/brushes-3129361_1920.jpg);
   background-size: cover;
   background-position: center;
   color: white;
