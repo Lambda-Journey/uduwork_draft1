@@ -243,7 +243,7 @@ HERO DIV
 
 .como__funciona h1 {
   color: #141414;
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1em;
@@ -252,28 +252,26 @@ HERO DIV
 
 .cf__infographics {
   display: grid;
-  grid-template-rows: minmax(200px, 1fr);
-  grid-template-columns: minmax(min-content, 400px) minmax(min-content, 400px) minmax(
-      min-content,
-      400px
-    );
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-column-gap: 2rem;
   grid-row-gap: 1em;
-  align-content: center;
-  justify-content: center;
+  justify-items: center;
+  max-width: 80%;
+  margin: 0 10%;
 }
 
-.cf__infographics a {
+.card a {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 300px;
 }
-.cf__infographics h1 {
+.card h1 {
   text-align: center;
 }
 
-.cf__infographics img {
+.card img {
   width: 250px;
   height: auto;
 }
@@ -283,12 +281,18 @@ HERO DIV
   height: auto;
 }
 
-.cf__infographics h2 {
+.card h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   text-decoration: none;
   font-size: 1.2rem;
   text-align: center;
+  min-height: 110px;
+}
+
+.card {
+  max-width: 350px;
+  align-content: center;
 }
 
 /* =====================================================
