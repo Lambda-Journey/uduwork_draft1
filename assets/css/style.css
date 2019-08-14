@@ -120,8 +120,8 @@ HERO DIV
       160deg,
       rgba(0, 0, 0, 0.3),
       rgba(50, 64, 84, 0.7)
-    ),
-    url(/assets/img/brushes-3129361_1920.jpg);
+    ), 
+    url("assets/img/brushes-3129361_1920.jpg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -410,9 +410,6 @@ FOOTER
     padding: 0.5em;
   }
 
-  .herodiv h3 {
-    display: none;
-  }
 
   .herodiv div {
     height: 400px;
