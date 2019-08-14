@@ -120,7 +120,7 @@ HERO DIV
       160deg,
       rgba(0, 0, 0, 0.3),
       rgba(50, 64, 84, 0.7)
-    ), 
+    ),
     url("assets/img/brushes-3129361_1920.jpg");
   background-size: cover;
   background-position: center;
@@ -409,8 +409,6 @@ FOOTER
     text-align: center;
     padding: 0.5em;
   }
-
-
   .herodiv div {
     height: 400px;
     display: flex;
