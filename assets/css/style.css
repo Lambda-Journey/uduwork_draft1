@@ -322,14 +322,17 @@ SERVICIOS DIV
   background-color: white;
   max-width: 400px;
   max-height: 350px;
-  box-shadow: 7px 5px 15px 1px rgba(0, 0, 0, 0.1);
-  transition: transform 220ms ease-in-out;
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+  transition: all 250ms ease;
   top: 0;
   min-height: 350px;
+  display: flex;
+  flex-direction: column;
 }
 
 .service__card:hover {
-  transform: translateY(-10px);
+  transform: translate(0, -8px);
+  box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.3);
 }
 
 .servicesdiv {
@@ -350,8 +353,13 @@ SERVICIOS DIV
   text-align: center;
   font-weight: 300;
   font-size: 1.5rem;
-  min-height: 2em;
-  padding-top: 0.5em;
+}
+
+.service__cardtitle {
+  height: 500px;
+  align-content: center;
+  display: block;
+  align-items: center;
 }
 
 /* =====================================================
