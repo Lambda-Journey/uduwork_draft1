@@ -323,7 +323,7 @@ servicios div
 
 .service__card:hover {
   transform: translate(0, -8px);
-  box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
 .servicesdiv {
