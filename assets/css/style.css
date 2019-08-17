@@ -34,7 +34,7 @@ h2 {
   font-weight: 600;
   text-decoration: none;
   font-size: 1em;
-  color: rgba(23, 34, 42, 1);
+  color: rgb(23, 34, 42);
 }
 
 button,
@@ -93,7 +93,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-  color: rgba(60, 242, 139, 1);
+  color: #3cf28b;
 }
 
 ul button {
