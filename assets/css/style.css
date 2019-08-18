@@ -307,7 +307,7 @@ servicios div
 
 .service__card {
   background-color: white;
-  max-height: 500px;
+  max-width: 373px;
   box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
   transition: all 250ms ease;
 }
