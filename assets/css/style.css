@@ -298,15 +298,15 @@ servicios div
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   padding-bottom: 5em;
-  align-items: center;
   min-height: 400px;
-  align-self: center;
   grid-gap: 1em 1em;
   margin: 0 10%;
+  justify-items: center;
 }
 
 .service__card {
   background-color: white;
+  min-width: 288px;
   max-width: 373px;
   box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
   transition: all 250ms ease;
@@ -318,10 +318,10 @@ servicios div
 }
 
 .servicesdiv {
-  display: block;
-  align-items: center;
+  display: flex;
   background-color: rgb(240, 239, 239);
   width: 100%;
+  flex-direction: column;
 }
 
 .servicesdiv h1 {
@@ -351,7 +351,6 @@ servicios div
 .serviceCardImage2,
 .serviceCardImage3,
 .serviceCardImage4 {
-  min-width: auto;
   min-height: 220px;
   background-position: center;
   background-size: cover;
@@ -385,7 +384,7 @@ footer
 /* =====================================================
 @MEDIA <TABLET
 ========================================================*/
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 892px) {
   /* ============
 navbar <tablet animation
 ===============*/
