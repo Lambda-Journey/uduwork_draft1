@@ -117,7 +117,7 @@ hero div
       rgba(0, 0, 0, 0.3),
       rgba(50, 64, 84, 0.7)
     ),
-    url(https://sebastiangarces.github.io/uduwork/assets/img/graffiti-wall-1209761_1920.jpg);
+    url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: scroll, fixed;
@@ -296,7 +296,7 @@ servicios div
 
 .services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   padding-bottom: 5em;
   align-items: center;
   min-height: 400px;
@@ -307,7 +307,6 @@ servicios div
 
 .service__card {
   background-color: white;
-  max-width: 400px;
   max-height: 500px;
   box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
   transition: all 250ms ease;
@@ -353,9 +352,10 @@ servicios div
 .serviceCardImage3,
 .serviceCardImage4 {
   min-width: auto;
-  min-height: 250px;
+  min-height: 220px;
   background-position: center;
   background-size: cover;
+  background-attachment: scroll, fixed;
 }
 
 .serviceCardImage1 {
@@ -371,7 +371,7 @@ servicios div
 }
 
 .serviceCardImage4 {
-  background-image: url(https://sebastiangarces.github.io/uduwork/assets/digital_marketing-min.jpg);
+  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/digital_marketing-min.jpg);
 }
 
 /* ============
@@ -483,7 +483,7 @@ navbar <tablet animation
         rgba(0, 0, 0, 0.7),
         rgba(50, 64, 84, 0.7)
       ),
-      url(https://sebastiangarces.github.io/uduwork/assets/img/graffiti-wall-1209761_1920.jpg);
+      url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -521,4 +521,12 @@ navbar <tablet animation
   .herodiv a {
     align-self: center;
   }
+}
+
+.services {
+  margin: 0 5%;
+}
+
+.logo {
+  margin: 0;
 }
