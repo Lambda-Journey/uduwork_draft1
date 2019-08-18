@@ -297,16 +297,12 @@ servicios div
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  width: 100%;
-  background-color: rgb(240, 239, 239);
   padding-bottom: 5em;
-  justify-items: center;
   align-items: center;
   min-height: 400px;
   align-self: center;
-  padding-left: 5%;
-  padding-right: 5%;
   grid-gap: 1em 1em;
+  margin: 0 10%;
 }
 
 .service__card {
@@ -325,6 +321,8 @@ servicios div
 .servicesdiv {
   display: block;
   align-items: center;
+  background-color: rgb(240, 239, 239);
+  width: 100%;
 }
 
 .servicesdiv h1 {
@@ -332,7 +330,6 @@ servicios div
   font-size: 2rem;
   font-weight: 300;
   color: rgb(23, 34, 42);
-  background-color: rgb(248, 248, 248);
   padding: 2em 0;
 }
 
@@ -349,6 +346,32 @@ servicios div
 .service__card a {
   display: flex;
   flex-direction: column;
+}
+
+.serviceCardImage1,
+.serviceCardImage2,
+.serviceCardImage3,
+.serviceCardImage4 {
+  min-width: auto;
+  min-height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+.serviceCardImage1 {
+  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/diseño_multimedia-min.jpg);
+}
+
+.serviceCardImage2 {
+  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/video_animacion-min.jpg);
+}
+
+.serviceCardImage3 {
+  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/radaccion_traduccion-min.jpg);
+}
+
+.serviceCardImage4 {
+  background-image: url(https://sebastiangarces.github.io/uduwork/assets/digital_marketing-min.jpg);
 }
 
 /* ============
