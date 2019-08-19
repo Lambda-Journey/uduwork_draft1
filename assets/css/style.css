@@ -294,6 +294,16 @@ hero div
 servicios div
 ===============*/
 
+.servicesdiv {
+  background-color: rgb(240, 239, 239);
+}
+.servicesdiv h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(23, 34, 42);
+  padding: 2em 0;
+}
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
@@ -305,9 +315,9 @@ servicios div
 }
 
 .service__card {
-  background-color: white;
+  width: 100%;
   min-width: 288px;
-  max-width: 373px;
+  max-width: 370px;
   box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
   transition: all 250ms ease;
 }
@@ -317,44 +327,23 @@ servicios div
   box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
-.servicesdiv {
-  display: flex;
-  background-color: rgb(240, 239, 239);
-  width: 100%;
-  flex-direction: column;
-}
-
-.servicesdiv h1 {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 300;
-  color: rgb(23, 34, 42);
-  padding: 2em 0;
-}
-
 .service__card h2 {
   text-align: center;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   min-height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.service__card a {
-  display: flex;
-  flex-direction: column;
-}
-
 .serviceCardImage1,
 .serviceCardImage2,
 .serviceCardImage3,
 .serviceCardImage4 {
-  min-height: 220px;
+  min-height: 240px;
   background-position: center;
   background-size: cover;
-  background-attachment: scroll, fixed;
 }
 
 .serviceCardImage1 {
