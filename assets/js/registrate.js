@@ -1,5 +1,5 @@
 function animatedForm() {
-  const registrar = document.quarySelectorAll(".registrar");
+  const registrar = document.querySelectorAll(".registrar");
 
   registrar.forEach(registrar => {
     registrar.addEventListener("click", () => {
