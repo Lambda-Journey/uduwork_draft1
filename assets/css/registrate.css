@@ -4,17 +4,17 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background-color: rgb(23, 34, 42);
+    background-color: rgb(23, 34, 42);
 }
 
 /* ============
@@ -22,19 +22,19 @@ global font settings
 ===============*/
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 1rem;
-  color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 1rem;
-  color: rgba(23, 34, 42, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(23, 34, 42, 1);
 }
 
 button,
@@ -43,11 +43,11 @@ ul,
 a,
 p,
 div {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: rgba(23, 34, 42, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgba(23, 34, 42, 1);
 }
 
 /* ============
@@ -55,27 +55,27 @@ button & fields
 ===============*/
 
 button {
-  padding: 0.75em 3em;
-  background-color: rgba(60, 242, 139, 1);
-  border: none;
-  color: black;
-  transition: all 0.3s ease 0s;
-  font-size: 1rem;
-  margin-top: 2em;
+    padding: 0.75em 3em;
+    background-color: rgba(60, 242, 139, 1);
+    border: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    font-size: 1rem;
+    margin-top: 2em;
 }
 
 button:hover {
-  background-color: rgba(60, 242, 139, 0.8);
-  cursor: pointer;
+    background-color: rgba(60, 242, 139, 0.8);
+    cursor: pointer;
 }
 
 input {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  padding: 0.75em 1rem;
-  border: 1px solid rgba(23, 34, 42, 1);
-  font-size: 1rem;
-  margin: 0.5rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding: 0.75em 1rem;
+    border: 1px solid rgba(23, 34, 42, 1);
+    font-size: 1rem;
+    margin: 0.5rem 0;
 }
 
 /* ============
@@ -83,30 +83,30 @@ form
 ===============*/
 
 .login__form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .form {
-  width: auto;
-  padding: 3rem;
-  background-color: rgba(255, 255, 255, 1);
+    width: auto;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .registration {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
 }
 
 .registration div {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .registration div input {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }

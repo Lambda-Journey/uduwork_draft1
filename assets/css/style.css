@@ -4,17 +4,17 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background-color: rgb(23, 34, 42);
+    background-color: rgb(23, 34, 42);
 }
 
 /* ============
@@ -22,30 +22,30 @@ global font settings
 ===============*/
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 1rem;
-  color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 1rem;
-  color: rgba(23, 34, 42, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(23, 34, 42, 1);
 }
 
 button,
 h3,
 ul,
 a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
 }
 
 /* ============
@@ -53,58 +53,58 @@ nav bar
 ===============*/
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em 3em;
-  background-color: rgba(23, 34, 42, 0.95);
-  position: fixed;
-  z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    background-color: rgba(23, 34, 42, 0.95);
+    position: fixed;
+    z-index: 999;
 }
 
 header input {
-  display: none;
+    display: none;
 }
 
 .logo {
-  cursor: pointer;
-  margin-right: 20px;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
 .nav__container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 header nav {
-  list-style: none;
-  text-transform: uppercase;
+    list-style: none;
+    text-transform: uppercase;
 }
 
 header nav li {
-  display: inline-block;
-  padding: 0px 20px;
+    display: inline-block;
+    padding: 0px 20px;
 }
 
 header nav li a {
-  transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 header nav li a:hover {
-  color: #3cf28b;
+    color: #3cf28b;
 }
 
 ul button {
-  padding: 0.75em 3em;
-  background-color: rgba(60, 242, 139, 1);
-  border: none;
-  color: black;
-  transition: all 0.3s ease 0s;
+    padding: 0.75em 3em;
+    background-color: rgba(60, 242, 139, 1);
+    border: none;
+    color: black;
+    transition: all 0.3s ease 0s;
 }
 
 ul button:hover {
-  background-color: rgba(60, 242, 139, 0.8);
-  cursor: pointer;
+    background-color: rgba(60, 242, 139, 0.8);
+    cursor: pointer;
 }
 
 /* ============
@@ -112,118 +112,118 @@ hero div
 ===============*/
 
 .herodiv {
-  background-image: linear-gradient(160deg,
-      rgba(0, 0, 0, 0.3),
-      rgba(50, 64, 84, 0.7)),
-    url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll, fixed;
-  color: white;
-  min-height: 1000px;
-  max-height: 1200px;
-  display: flex;
-  align-items: flex-end;
-  position: relative;
+    background-image: linear-gradient(160deg,
+            rgba(0, 0, 0, 0.3),
+            rgba(50, 64, 84, 0.7)),
+        url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll, fixed;
+    color: white;
+    min-height: 1000px;
+    max-height: 1200px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
 }
 
 .herodiv h1 {
-  font-size: 2.5rem;
-  opacity: 0;
-  animation-name: heroheaders;
-  animation-duration: 750ms;
-  animation-delay: 800ms;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
+    font-size: 2.5rem;
+    opacity: 0;
+    animation-name: heroheaders;
+    animation-duration: 750ms;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
 
 .herodiv h3 {
-  color: rgb(219, 218, 218);
-  padding-top: 2em;
-  text-transform: capitalize;
-  opacity: 0;
-  animation-name: heroheaders;
-  animation-duration: 750ms;
-  animation-delay: 800ms;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-  font-size: 1.2rem;
+    color: rgb(219, 218, 218);
+    padding-top: 2em;
+    text-transform: capitalize;
+    opacity: 0;
+    animation-name: heroheaders;
+    animation-duration: 750ms;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    font-size: 1.2rem;
 }
 
 @keyframes heroheaders {
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }
 
 .herodiv div {
-  background-color: rgba(23, 34, 42, 0.9);
-  height: 480px;
-  display: flex;
-  flex-direction: column;
-  width: 65%;
-  max-width: 1475px;
-  justify-content: center;
-  text-align: end;
-  padding-right: 3em;
-  position: absolute;
-  opacity: 0;
-  animation-name: hero;
-  animation-duration: 750ms;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
+    background-color: rgba(23, 34, 42, 0.9);
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    max-width: 1475px;
+    justify-content: center;
+    text-align: end;
+    padding-right: 3em;
+    position: absolute;
+    opacity: 0;
+    animation-name: hero;
+    animation-duration: 750ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hero {
-  0% {
-    left: -950px;
-  }
+    0% {
+        left: -950px;
+    }
 
-  100% {
-    left: 0px;
-    opacity: 1;
-  }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
 }
 
 .hero__search {
-  width: 250px;
-  align-self: flex-end;
-  margin-top: 1em;
-  height: 2.5em;
-  font-size: 1em;
-  margin-bottom: 1em;
-  width: 250px;
-  opacity: 0;
-  animation-name: heroheaders;
-  animation-duration: 750ms;
-  animation-delay: 800ms;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
+    width: 250px;
+    align-self: flex-end;
+    margin-top: 1em;
+    height: 2.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    width: 250px;
+    opacity: 0;
+    animation-name: heroheaders;
+    animation-duration: 750ms;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
 
 .herodiv button {
-  text-transform: uppercase;
-  padding: 0.75em 3em;
-  background-color: rgba(60, 242, 139, 1);
-  border: none;
-  color: black;
-  transition: all 0.3s ease 0s;
-  width: 250px;
-  opacity: 0;
-  animation-name: heroheaders;
-  animation-duration: 750ms;
-  animation-delay: 800ms;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
+    text-transform: uppercase;
+    padding: 0.75em 3em;
+    background-color: rgba(60, 242, 139, 1);
+    border: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    width: 250px;
+    opacity: 0;
+    animation-name: heroheaders;
+    animation-duration: 750ms;
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
 
 .herodiv button:hover {
-  background-color: rgba(60, 242, 139, 0.8);
-  cursor: pointer;
+    background-color: rgba(60, 242, 139, 0.8);
+    cursor: pointer;
 }
 
 /* ============
@@ -231,64 +231,64 @@ hero div
 ===============*/
 
 .como__funciona {
-  min-height: 400px;
-  background-color: white;
+    min-height: 400px;
+    background-color: white;
 }
 
 .como__funciona h1 {
-  color: #141414;
-  font-size: 2rem;
-  text-align: center;
-  padding-top: 2em;
-  padding-bottom: 1em;
-  font-weight: 400;
+    color: #141414;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-weight: 400;
 }
 
 .cf__infographics {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-column-gap: 2rem;
-  grid-row-gap: 1em;
-  justify-items: center;
-  max-width: 80%;
-  margin: 0 10%;
-  padding-bottom: 5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 1em;
+    justify-items: center;
+    max-width: 80%;
+    margin: 0 10%;
+    padding-bottom: 5em;
 }
 
 .card a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
 }
 
 .card h1 {
-  text-align: center;
+    text-align: center;
 }
 
 .card img {
-  width: 250px;
-  height: auto;
+    width: 250px;
+    height: auto;
 }
 
 #paga {
-  width: 175px;
-  height: auto;
+    width: 175px;
+    height: auto;
 }
 
 .card h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  text-decoration: none;
-  font-size: 1.2rem;
-  text-align: center;
-  min-height: 110px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    min-height: 110px;
 }
 
 .card {
-  max-width: 380px;
-  align-content: center;
+    max-width: 380px;
+    align-content: center;
 }
 
 /* ============
@@ -296,73 +296,73 @@ servicios div
 ===============*/
 
 .servicesdiv {
-  background-color: rgb(240, 239, 239);
+    background-color: rgb(240, 239, 239);
 }
 
 .servicesdiv h1 {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 300;
-  color: rgb(23, 34, 42);
-  padding: 2em 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(23, 34, 42);
+    padding: 2em 0;
 }
 
 .services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-  padding-bottom: 5em;
-  min-height: 400px;
-  grid-gap: 1em 1em;
-  margin: 0 10%;
-  justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    padding-bottom: 5em;
+    min-height: 400px;
+    grid-gap: 1em 1em;
+    margin: 0 10%;
+    justify-items: center;
 }
 
 .service__card {
-  width: 100%;
-  min-width: 288px;
-  max-width: 370px;
-  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
-  transition: all 250ms ease;
+    width: 100%;
+    min-width: 288px;
+    max-width: 370px;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+    transition: all 250ms ease;
 }
 
 .service__card:hover {
-  transform: translate(0, -8px);
-  box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -8px);
+    box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
 .service__card h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 1.4rem;
-  min-height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4rem;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .serviceCardImage1,
 .serviceCardImage2,
 .serviceCardImage3,
 .serviceCardImage4 {
-  min-height: 240px;
-  background-position: center;
-  background-size: cover;
+    min-height: 240px;
+    background-position: center;
+    background-size: cover;
 }
 
 .serviceCardImage1 {
-  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/diseño_multimedia-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/diseño_multimedia-min.jpg);
 }
 
 .serviceCardImage2 {
-  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/video_animacion-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/video_animacion-min.jpg);
 }
 
 .serviceCardImage3 {
-  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/radaccion_traduccion-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/radaccion_traduccion-min.jpg);
 }
 
 .serviceCardImage4 {
-  background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/digital_marketing-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/digital_marketing-min.jpg);
 }
 
 /* ============
@@ -370,154 +370,154 @@ footer
 ===============*/
 
 .footer {
-  min-height: 700px;
+    min-height: 700px;
 }
 
 /* =====================================================
 @MEDIA <TABLET
 ========================================================*/
 @media screen and (max-width: 892px) {
-  /* ============
+    /* ============
 navbar <tablet animation
 ===============*/
 
-  header {
-    display: block;
-    margin: 0;
-    padding: 20px 1em;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-  }
+    header {
+        display: block;
+        margin: 0;
+        padding: 20px 1em;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+    }
 
-  header nav {
-    background-color: rgba(23, 34, 42, 0.95);
-    position: absolute;
-    text-align: left;
-    left: 0;
-    top: 100%;
-    display: block;
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: 400ms ease-in-out;
-    width: 100%;
-  }
+    header nav {
+        background-color: rgba(23, 34, 42, 0.95);
+        position: absolute;
+        text-align: left;
+        left: 0;
+        top: 100%;
+        display: block;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: 400ms ease-in-out;
+        width: 100%;
+    }
 
-  .nav__toggle {
-    display: none;
-  }
+    .nav__toggle {
+        display: none;
+    }
 
-  .nav__toggle__label {
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 1em;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
+    .nav__toggle__label {
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1em;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
 
-  .nav__toggle__label span,
-  .nav__toggle__label span::before,
-  .nav__toggle__label span::after {
-    display: block;
-    background: white;
-    height: 2px;
-    width: 2em;
-    border-radius: 3px;
-    position: relative;
-  }
+    .nav__toggle__label span,
+    .nav__toggle__label span::before,
+    .nav__toggle__label span::after {
+        display: block;
+        background: white;
+        height: 2px;
+        width: 2em;
+        border-radius: 3px;
+        position: relative;
+    }
 
-  .nav__toggle__label span::before,
-  .nav__toggle__label span::after {
-    content: "";
-    position: absolute;
-  }
+    .nav__toggle__label span::before,
+    .nav__toggle__label span::after {
+        content: "";
+        position: absolute;
+    }
 
-  .nav__toggle__label span::before {
-    bottom: 8px;
-  }
+    .nav__toggle__label span::before {
+        bottom: 8px;
+    }
 
-  .nav__toggle__label span::after {
-    top: 8px;
-  }
+    .nav__toggle__label span::after {
+        top: 8px;
+    }
 
-  header nav li {
-    margin: 2rem 0;
-    display: block;
-  }
+    header nav li {
+        margin: 2rem 0;
+        display: block;
+    }
 
-  header nav li a {
-    font-size: 1.2rem;
-    opacity: 0;
-    transition: opacity 150ms ease-in-out;
-  }
+    header nav li a {
+        font-size: 1.2rem;
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;
+    }
 
-  button {
-    font-size: 1.2rem;
-    padding: 0.75em 2em;
-  }
+    button {
+        font-size: 1.2rem;
+        padding: 0.75em 2em;
+    }
 
-  .nav__toggle:checked~nav {
-    transform: scale(1, 1);
-  }
+    .nav__toggle:checked~nav {
+        transform: scale(1, 1);
+    }
 
-  .nav__toggle:checked~nav a {
-    opacity: 1;
-    transition: opacity 250ms ease-in-out 270ms;
-  }
+    .nav__toggle:checked~nav a {
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 270ms;
+    }
 
-  .herodiv {
-    min-height: 550px;
-    background-image: linear-gradient(160deg,
-        rgba(0, 0, 0, 0.7),
-        rgba(50, 64, 84, 0.7)),
-      url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+    .herodiv {
+        min-height: 550px;
+        background-image: linear-gradient(160deg,
+                rgba(0, 0, 0, 0.7),
+                rgba(50, 64, 84, 0.7)),
+            url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
 
-  .herodiv h1 {
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: center;
-    padding: 0.5em;
-  }
+    .herodiv h1 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        padding: 0.5em;
+    }
 
-  .herodiv h3 {
-    display: none;
-  }
+    .herodiv h3 {
+        display: none;
+    }
 
-  .herodiv div {
-    height: 400px;
-    display: flex;
-    width: 100%;
-    padding: 0;
-    background-color: transparent;
-  }
+    .herodiv div {
+        height: 400px;
+        display: flex;
+        width: 100%;
+        padding: 0;
+        background-color: transparent;
+    }
 
-  .hero__search {
-    width: 175px;
-    margin-top: 3em;
-    align-self: center;
-  }
+    .hero__search {
+        width: 175px;
+        margin-top: 3em;
+        align-self: center;
+    }
 
-  .herodiv button {
-    width: 175px;
-    font-size: 1rem;
-  }
+    .herodiv button {
+        width: 175px;
+        font-size: 1rem;
+    }
 
-  .herodiv a {
-    align-self: center;
-  }
+    .herodiv a {
+        align-self: center;
+    }
 }
 
 .services {
-  margin: 0 5%;
+    margin: 0 5%;
 }
 
 .logo {
-  margin: 0;
+    margin: 0;
 }
