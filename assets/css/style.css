@@ -112,11 +112,9 @@ hero div
 ===============*/
 
 .herodiv {
-  background-image: linear-gradient(
-      160deg,
+  background-image: linear-gradient(160deg,
       rgba(0, 0, 0, 0.3),
-      rgba(50, 64, 84, 0.7)
-    ),
+      rgba(50, 64, 84, 0.7)),
     url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
   background-size: cover;
   background-position: center;
@@ -156,6 +154,7 @@ hero div
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -183,6 +182,7 @@ hero div
   0% {
     left: -950px;
   }
+
   100% {
     left: 0px;
     opacity: 1;
@@ -262,6 +262,7 @@ hero div
   justify-content: center;
   min-height: 300px;
 }
+
 .card h1 {
   text-align: center;
 }
@@ -297,6 +298,7 @@ servicios div
 .servicesdiv {
   background-color: rgb(240, 239, 239);
 }
+
 .servicesdiv h1 {
   text-align: center;
   font-size: 2rem;
@@ -304,6 +306,7 @@ servicios div
   color: rgb(23, 34, 42);
   padding: 2em 0;
 }
+
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
@@ -444,6 +447,7 @@ navbar <tablet animation
     margin: 2rem 0;
     display: block;
   }
+
   header nav li a {
     font-size: 1.2rem;
     opacity: 0;
@@ -455,22 +459,20 @@ navbar <tablet animation
     padding: 0.75em 2em;
   }
 
-  .nav__toggle:checked ~ nav {
+  .nav__toggle:checked~nav {
     transform: scale(1, 1);
   }
 
-  .nav__toggle:checked ~ nav a {
+  .nav__toggle:checked~nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 270ms;
   }
 
   .herodiv {
     min-height: 550px;
-    background-image: linear-gradient(
-        160deg,
+    background-image: linear-gradient(160deg,
         rgba(0, 0, 0, 0.7),
-        rgba(50, 64, 84, 0.7)
-      ),
+        rgba(50, 64, 84, 0.7)),
       url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
     height: 100vh;
     display: flex;
@@ -506,6 +508,7 @@ navbar <tablet animation
     width: 175px;
     font-size: 1rem;
   }
+
   .herodiv a {
     align-self: center;
   }
