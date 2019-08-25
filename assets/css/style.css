@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: rgb(23, 34, 42);
+    background-color: #17222a;
 }
 
 /* ============
@@ -34,7 +34,7 @@ h2 {
     font-weight: 600;
     text-decoration: none;
     font-size: 1rem;
-    color: rgba(23, 34, 42, 1);
+    color: #17222a;
 }
 
 button,
@@ -57,7 +57,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1em 3em;
-    background-color: rgba(23, 34, 42, 0.95);
+    background-color: rgba(23, 34, 42, 0.949);
     position: fixed;
     z-index: 999;
 }
@@ -96,7 +96,7 @@ header nav li a:hover {
 
 ul button {
     padding: 0.75em 3em;
-    background-color: rgba(60, 242, 139, 1);
+    background-color: rgb(60, 242, 139);
     border: none;
     color: black;
     transition: all 0.3s ease 0s;
