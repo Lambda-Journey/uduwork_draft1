@@ -20,11 +20,10 @@
 }
 
 .mainHero {
-    position: relative;
+    position: ;
     background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
-    z-index: -1;
 }
