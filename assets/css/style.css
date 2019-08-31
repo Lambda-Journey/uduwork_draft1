@@ -115,7 +115,7 @@ hero div
     background-image: linear-gradient(160deg,
             rgba(0, 0, 0, 0.3),
             rgba(50, 64, 84, 0.7)),
-        url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
+        url(https://sebastiangarces.github.io/uduwork_draft1/assets/img/hero_main-min.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll, fixed;
@@ -350,19 +350,19 @@ servicios div
 }
 
 .serviceCardImage1 {
-    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/diseño_multimedia-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork_draft1/assets/img/diseño_multimedia-min.jpg);
 }
 
 .serviceCardImage2 {
-    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/video_animacion-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork_draft1/assets/img/video_animacion-min.jpg);
 }
 
 .serviceCardImage3 {
-    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/radaccion_traduccion-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork_draft1/assets/img/radaccion_traduccion-min.jpg);
 }
 
 .serviceCardImage4 {
-    background-image: url(https://sebastiangarces.github.io/uduwork/assets/img/digital_marketing-min.jpg);
+    background-image: url(https://sebastiangarces.github.io/uduwork_draft1/assets/img/digital_marketing-min.jpg);
 }
 
 /* ============
@@ -473,7 +473,7 @@ navbar <tablet animation
         background-image: linear-gradient(160deg,
                 rgba(0, 0, 0, 0.7),
                 rgba(50, 64, 84, 0.7)),
-            url(https://sebastiangarces.github.io/uduwork/assets/img/hero_main-min.jpg);
+            url(https://sebastiangarces.github.io/uduwork_draft1/assets/img/hero_main-min.jpg);
         height: 100vh;
         display: flex;
         align-items: center;
